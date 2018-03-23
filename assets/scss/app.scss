@@ -1,0 +1,75 @@
+$bg-color: #343a40;
+$body-color: #fff;
+$bg-color-home: #343a40;
+$card-bg: $bg-color-home;
+$card-border-color: #ffc107;
+$link-color: #ffc107;
+$app-yellow: #ffc107;
+$app-dark: #343a40;
+
+@import "../bootstrap/scss/bootstrap";
+
+body {
+    background-color: $bg-color;
+}
+
+.card {
+    color: #fff;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 18rem;
+
+    h3,h4 {
+        color: $app-yellow;
+    }
+
+    h4.card-title-app {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $app-yellow;
+        text-align: center;
+    }
+
+    h4.card-body-app {
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    p.card-body-app {
+        padding: 1rem;
+    }
+}
+
+.jumbotron {
+    border-radius: 0;
+    border-bottom: 1px solid $app-yellow;
+    margin-bottom: 0;
+
+    h1 {
+        color: $app-dark;
+        text-align: center;
+    }
+
+    .lead {
+        text-align: center;
+    }
+}
+
+
+.bg-home {
+    background-image: url(../img/bg-home.jpg);
+    height: 250px;
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    background-image: url(../img/section-title.jpg);
+    margin-bottom: 2rem;
+}
+
+footer {
+    border-top: 1px solid $app-yellow; 
+    padding-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
