@@ -11,8 +11,12 @@ $app-dark: #343a40;
 
 body {
     background-color: $bg-color;
+    cursor: url("../img/bee.png"), pointer;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    cursor: url("../img/bee-attack.png"), pointer;
+}
 .card {
     color: #fff;
     margin-bottom: 1rem;
